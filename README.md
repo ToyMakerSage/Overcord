@@ -19,6 +19,7 @@ While not required, I STRONGLY advise also using the following with Overcord:
 * BetterDiscord
 * BetterDiscord Transparency Fix Plugin
 * BetterDiscord Channel and Server hiding plugin (This one is REALLY helpful)
+* BetterDiscord Frosted Glass Theme
 
 ## Hotkeys
 **Ctrl + Alt + S** - *Target Discord Process*  
