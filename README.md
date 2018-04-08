@@ -17,13 +17,12 @@ Overcord can be used in a barebones form with standard Discord, but is greatly i
 * [Discord](https://discordapp.com/)
 
 #### Function and Useability Enhancing Optionals (Highly Recomended)
-While not required, I STRONGLY advise also using the following with Overcord:
 * [BetterDiscord](https://betterdiscord.net/home/)
 * [BetterDiscord Transparency Patcher](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/TransparencyPatcher)
 * [BetterDiscord Channel and Server hiding plugin](https://betterdocs.net/collections/plugins/products/hide-servers-and-channels)
 * [BetterDiscord Remove Minimum Size Plugin](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/RemoveMinimumSize)
 
-#### Well fitting Cosmetic Themes
+#### Cosmetic Themeing (Personal Taste)
 * [BetterDiscord Frosted Glass Theme](https://betterdocs.net/products/frosted-glass) **_(Use version included with Overcord)_**
 
 ## Hotkeys
