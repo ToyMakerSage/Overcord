@@ -10,16 +10,18 @@ As of 8th of April 2018, Overcord currently provides the following key features:
 * Ability to hide a discord window entirely while preserving it's appearance settings (Toggleable)
 * Two toggleable levels of transparency 
 
-## Requirements
-Overcord requires the following:
-* Autohotkey v1.X (It may work with 2.x as well but I have not tested this)
-* Discord (You can change the defined process to target for it to work with other programs, but this is targeting discord in development)
+## Pre-Requisites
+Overcord can be used in a barebones form with standard Discord, but is greatly improved when used along side BetterDiscord  
+#### Essential Requirements
+* [Autohotkey](https://www.autohotkey.com/) **_(Built for 1.X but may work on 2.x)_**
+* [Discord](https://discordapp.com/)
 
+#### Highly Suggested Optionals
 While not required, I STRONGLY advise also using the following with Overcord:
-* BetterDiscord
-* BetterDiscord Transparency Fix Plugin
-* BetterDiscord Channel and Server hiding plugin (This one is REALLY helpful)
-* BetterDiscord Frosted Glass Theme
+* [BetterDiscord](https://betterdiscord.net/home/)
+* [BetterDiscord Transparency Patcher](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/TransparencyPatcher)
+* [BetterDiscord Channel and Server hiding plugin](https://betterdocs.net/collections/plugins/products/hide-servers-and-channels) **_(REALLY USEFUL)_**
+* [BetterDiscord Frosted Glass Theme](https://betterdocs.net/products/frosted-glass) **_(Included here for completion and Crediting, but use the modified version included in downloading overcord)_** 
 
 ## Hotkeys
 **Ctrl + Alt + S** - *Target Discord Process*  
