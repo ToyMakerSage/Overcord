@@ -26,78 +26,78 @@ return
 
 toggle:
 	if (!(FullHide))
+	{
+		if (FallThrough) 
 		{
-			if (FallThrough) 
-				{
-					FallThrough := 0
-					ExpTrans := 0
-					WinSet, ExStyle, -0x20, % AHKID
-					WinSet, Transparent, 255, % AHKID
-				} 
-			else 
-				{
-					FallThrough := 1
-					ExpTrans := 1
-					WinSet, ExStyle, +0x20, % AHKID
-					if (SubtleTrans)
-						{
-							WinSet, Transparent, 50, % AHKID
-						}
-					else
-						{
-							WinSet, Transparent, 120, % AHKID
-						}
-				}
+			FallThrough := 0
+			ExpTrans := 0
+			WinSet, ExStyle, -0x20, % AHKID
+			WinSet, Transparent, 255, % AHKID
+		} 
+		else 
+		{
+			FallThrough := 1
+			ExpTrans := 1
+			WinSet, ExStyle, +0x20, % AHKID
+			if (SubtleTrans)
+			{
+				WinSet, Transparent, 50, % AHKID
+			}
+			else
+			{
+				WinSet, Transparent, 120, % AHKID
+			}
 		}
+	}
 	return
 
 togalp:
 	if (!(FullHide))
+	{
+		if (FallThrough)
 		{
-			if (FallThrough)
-				{
-					if (SubtleTrans)
-						{
-							SubtleTrans := 0
-							WinSet, Transparent, 120, % AHKID
-						}
-					else
-						{
-							SubtleTrans := 1
-							WinSet, Transparent, 50, % AHKID
-						}
-				}
+			if (SubtleTrans)
+			{
+				SubtleTrans := 0
+				WinSet, Transparent, 120, % AHKID
+			}
+			else
+			{
+				SubtleTrans := 1
+				WinSet, Transparent, 50, % AHKID
+			}
 		}
+	}
 	return
 
 toghid:
 	if (FullHide)
+	{
+		FullHide := 0
+		if (ExpTrans)
 		{
-			FullHide := 0
-			if (ExpTrans)
-				{
-					if (SubtleTrans)
-						{
-							WinSet, Transparent, 50, % AHKID
-						}
-					else
-						{
-							WinSet, Transparent, 120, % AHKID
-						}
-				}
+			if (SubtleTrans)
+			{
+				WinSet, Transparent, 50, % AHKID
+			}
 			else
-				{
-					WinSet, ExStyle, -0x20, % AHKID
-					WinSet, Transparent, 255, % AHKID
-				}
+			{
+				WinSet, Transparent, 120, % AHKID
+			}
 		}
-	else
+		else
 		{
-			FullHide := 1
-			if (!(ExpTrans))
-				{
-					WinSet, ExStyle, +0x20, % AHKID
-				}
-			WinSet, Transparent, 0, % AHKID
+			WinSet, ExStyle, -0x20, % AHKID
+			WinSet, Transparent, 255, % AHKID
 		}
+	}
+	else
+	{
+		FullHide := 1
+		if (!(ExpTrans))
+		{
+			WinSet, ExStyle, +0x20, % AHKID
+		}
+		WinSet, Transparent, 0, % AHKID
+	}
 	return
